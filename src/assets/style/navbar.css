@@ -8,6 +8,7 @@ nav {
 	width: calc(100% - 40px);
 	padding: 10px 20px;
 	background: rgb(7, 7, 7);
+	z-index: 5;
 }
 nav div {
 	flex: 1;
@@ -71,17 +72,18 @@ nav div#buttons a {
 	nav ul {
 		position: fixed;
 		top: 70px;
-		left: -100%;
+		right: 100%;
 		flex-direction: column;
 		height: 100%;
-		width: 5vw;
+		padding: 0;
+		width: 60%;
 		justify-content: flex-start;
 		background: rgb(7, 7, 7);
 		border-right: 3px solid white;
-		transition: left .7s;
+		transition: right .7s;
 	}
 	nav ul.opened {
-		left: 0;
+		right: 40%;
 	}
 	nav ul li {
 		margin: 20px 0;
