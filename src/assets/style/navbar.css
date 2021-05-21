@@ -7,6 +7,7 @@ nav {
 	left: 0;
 	width: calc(100% - 40px);
 	padding: 10px 20px;
+	background: rgb(7, 7, 7);
 }
 nav div {
 	flex: 1;
@@ -75,7 +76,7 @@ nav div#buttons a {
 		height: 100%;
 		width: 5vw;
 		justify-content: flex-start;
-		background: black;
+		background: rgb(7, 7, 7);
 		border-right: 3px solid white;
 		transition: left .7s;
 	}
@@ -84,5 +85,9 @@ nav div#buttons a {
 	}
 	nav ul li {
 		margin: 20px 0;
+		overflow: visible;
+	}
+	nav ul li::after {
+		display: none;
 	}
 }
