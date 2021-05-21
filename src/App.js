@@ -2,8 +2,12 @@ import React from "react";
 
 import "./assets/style/master.css";
 
-const HelloWorld = () => (
-	<h1>Hello, world!</h1>
+import Navbar from "./components/Navbar";
+
+const App = () => (
+	<>
+		<Navbar />
+	</>
 );
 
-export default HelloWorld;
+export default App;
