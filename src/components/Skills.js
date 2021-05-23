@@ -46,7 +46,7 @@ const Skills = () => {
 					<label>PHP</label>
 					<div className="outer-bar">
 						<div className="inner-bar" style={{ width: "78%" }}></div>
-					</div>S
+					</div>
 					<p>78%</p>
 				</div>
 				<div className="skill">
