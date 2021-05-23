@@ -1,0 +1,110 @@
+section#skills div#container {
+	width: 1200px;
+	margin: 20vh auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+section#skills div#container div.skill {
+	flex: 1 0 40%;
+	width: 300px;
+	height: 200px;
+	background: #131313;
+	border-radius: 5px;
+	padding: 30px;
+	margin: 20px;
+	text-align: center;
+	position: relative;
+}	
+section#skills div#container div.skill h1 {
+	font-size: 70px;
+}
+section#skills div#container div.skill label {
+	font-size: 30px;
+}
+section#skills div#container div.skill div.outer-bar {
+	background: #2c2c2c;
+	border: 1px solid #424242;
+	width: 90%;
+	height: 30px;
+	margin: 10px auto 0;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+section#skills div#container div.skill div.outer-bar div.inner-bar {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: white;
+}
+section#skills div#container div.skill p {
+	color: gray;
+	margin-top: 10px;
+	font-size: 30px;
+}
+@media (max-width: 1300px) {
+	section#skills  {
+		margin-bottom: 20px;
+	}
+	section#skills div#container {
+		width: 90%;
+		margin: 0;
+	}
+	section#skills div#container {
+		width: 100%;
+	}
+	section#skills div#container div.control {
+		display: none;
+	}
+	section#skills div#container div#skill-display {
+		overflow: visible;
+		width: 100%;
+		height: initial;
+	}
+	section#skills div#container {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	section#skills div#container div.skill {
+		flex: 1 0 40%;
+		width: 400px;
+		height: 200px;
+		padding: 20px 0;
+		position: relative;
+		margin: 20px;
+		position: initial
+	}	
+	section#skills div#container div.skill h1 {
+		font-size: 70px;
+	}
+	section#skills div#container div.skill label {
+		font-size: 30px;
+	}
+	section#skills div#container div.skill div.outer-bar {
+		background: #2c2c2c;
+		border: 1px solid #424242;
+		width: 70%;
+		height: 20px;
+		margin: 15px auto 0;
+		border-radius: 5px;
+		position: relative;
+		overflow: hidden;
+	}
+	section#skills div#container div.skill div.outer-bar div.inner-bar {
+		position: absolute;
+		height: 100%;
+		left: 0;
+		top: 0;
+		background: white;
+	}
+	section#skills div#container div.skill p {
+		color: gray;
+		margin-top: 10px;
+		font-size: 20px;
+	}
+}
