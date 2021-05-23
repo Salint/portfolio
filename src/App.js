@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Reviews from "./components/Reviews";
 
 const App = () => (
 	<>
@@ -13,6 +14,7 @@ const App = () => (
 		<Header />
 		<About />
 		<Skills />
+		<Reviews />
 	</>
 );
 
