@@ -19,9 +19,9 @@ const Reviews = () => (
 			</div>
 			<div className="review">
 				<div className="info">
-					<label>Davis Empire Inc.</label>
+					<label>Vanilla Remastered</label>
 					<br />
-					<a href="https://davisempireinc.com/">https://davisempireinc.com/</a>
+					<a href="https://vanilla-remastered.com/">https://vanilla-remastered.com/</a>
 				</div>
 				<div className="content">
 					<p>Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder</p>
@@ -44,7 +44,7 @@ const Reviews = () => (
 					<label>Mayo</label>
 				</div>
 				<div className="content">
-					<p>Cringe sometimes, but cool teen most of the time. Great developer, helped me learn few stuff. He can do anything, literally anything, first person to ask a question to: Salint.</p>
+					<p>Cringe sometimes, but cool teen most of the time. <b>Desperate to get a girlfriend.</b> Great developer, helped me learn few coding and rules stuff. He can do anything, literally anything, first person to ask a question to: Salint.</p>
 				</div>
 			</div>
 		</div>
